@@ -1,47 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
 
+    <body>
+        <header class="cabecalho">
+            <nav class="navbar navbar-expand-lg  navbar-dark">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#introducao">Segurança na Internet</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#p1">Riscos em Redes Sociais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#p2">Cyberbullying</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#p3">Estou protegido?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#p4">Preciso de ajuda</a>
+                    </li>
+                    
+                    </ul>
+                </div>
+                </div>
+            </nav> 
+            
+        </header>
 
-<head>
-    <meta charset="UTF-8">
-</head>
+        <div class="container " id="introducao" >
+            <div class="Introducao"   >
+                <h1>Segurança na Internet</h1>
+                <p>A segurança de dados pessoais é um tema crucial na era digital, onde informações
+                    sensíveis são constantemente compartilhadas e armazenadas online.
+                    Proteger esses dados é vital para evitar fraudes, roubo de identidade e outras
+                    ameaças cibernéticas. Adotar práticas seguras, utilizar ferramentas de proteção e
+                    estar ciente da legislação vigente são passos essenciais para garantir a
+                    privacidade e a integridade das suas informações pessoais.
+                </p>
+            </div>
 
-
-<body>
-    <div class="painel">
-        <div class="titulo">
-            <h1>Segurança vai além de antivirus e VPNs</h1>
-            <h2 class="texto"><br>Hoje em dia, existem diversas maneiras pelas quais pessoas mal-intencionadas podem obter suas informações na internet. Para se proteger de possíveis ataques, é essencial prestar atenção até mesmo aos links que você acessa.</h2>
         </div>
-        <div class="foto">
-            <!-- <img src="https://pbs.twimg.com/media/GOKFNldXMAEI5sf?format=jpg&name=large" alt="robin"> -->
-            <iframe width="1000vw" height="450vh" src="https://www.youtube.com/embed/QFdkggG34wo?si=T-75uf1nyPozVI0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </div>
 
-    <!--Segundo painel -->
-    <div class="painel">
-        <div class="foto">
-            <iframe width="1000vw" height="450vh" src="https://www.youtube.com/embed/Zw2ODkqZrbM?si=zKDugZRm4YZY7KAB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="titulo">
-            <h1>Relacionamentos online</h1>
-            <h2 class="texto"><br>Atualmente, é muito fácil encontrar pessoas na internet, e muitas amizades começam completamente online. Essas conexões podem surgir a partir de comentários em posts de redes sociais, em jogos online, ou até mesmo ao pesquisar assuntos escolares. Por isso, é sempre necessário redobrar a atenção ao interagir com pessoas na internet.</h2>
-        </div>
-    </div>
+        <div class="containterPainel">
+            <div class="painel" id="p1">
+                <div class="titulo">
+                    <h1 class="title">Relacionamentos online</h1>
+                    <h2 class="texto"><br>Atualmente, é muito fácil encontrar pessoas na internet, e muitas amizades começam completamente online.
+                        Essas conexões podem surgir a partir de comentários em posts de redes sociais, em jogos online, ou até mesmo ao pesquisar assuntos escolares.
+                        Por isso, é sempre necessário redobrar a atenção ao interagir com pessoas na internet.</h2>
+                    
+                </div>
+                <div class="foto">
+                    <iframe width="1000vw" height="450vh" src="https://www.youtube.com/embed/QFdkggG34wo?si=T-75uf1nyPozVI0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
 
+            <!--Segundo painel -->
+            <div class="painel" id="p2">
+                <div class="foto">
+                    <iframe width="1000vw" height="450vh" src="https://www.youtube.com/embed/Zw2ODkqZrbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="titulo">
+                    <h1 class="title">Cyberbullying</h1>
+                    <h2 class="texto"><br>A internet oferece muitas maneiras pelas quais pessoas mal-intencionadas podem assediar ou intimidar outras, dando origem ao cyberbullying.
+                        Para se proteger desse tipo de comportamento nocivo, é essencial estar atento às interações online Denunciar comportamentos abusivos e buscar apoio de amigos,
+                        familiares e profissionais também são passos importantes para lidar com essa ameaça digital.</h2>
+                    
+                </div>
+            </div>
 
-    <div class="painel">
-        <div class="titulo">
-            <h1>Segurança vai além de antivirus e VPNs</h1>
-            <h2 class="texto"><br>Hoje em dia na internet existem várias formas que pessoas mal intencionadas podem fazer para conseguir suas informações, para se protejer de possíveis ataques é necessário prestar atenção até mesmo nos links em que você acessa</h2>
-        </div>
-        <div class="foto">
-            <iframe width="1000vw" height="450vh" src="https://www.youtube.com/embed/t7RTTG2WFxg?si=p6PkRbMJOUCP0y07" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
-        </div>
-    </div>
+            <div class="painel" id="p3">
+                <div class="titulo">
+                    <h1 class="title">Segurança vai além de antivírus</h1>
+                    <h2 class="texto"><br>Existem diversas maneiras pelas quais pessoas mal-intencionadas podem obter suas informações na internet.
+                        Para se proteger de possíveis ataques, é essencial prestar atenção até mesmo aos links que você acessa.</h2>
+                </div>
+                <div class="foto">
+                    <iframe width="1000vw" height="450vh" src="https://www.youtube.com/embed/huMEgysZKF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+                </div>              
+            </div>
 
-</body>
-
+            <div class="painel" id="p4">
+                <div class="foto">
+                    <iframe width="1000vw" height="450vh" src="https://www.youtube.com/embed/qpj1p9nmnic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="titulo">
+                    <h1 class="title">Onde denunciar</h1>
+                    <h2 class="texto"><br>Para se proteger e combater esses crimes, é essencial saber como denunciá-los.
+                        Caso você se depare com atividades suspeitas ou seja vítima de um crime online,
+                        documente todas as evidências possíveis, como capturas de tela e registros de conversas.
+                        Em seguida, denuncie o incidente às autoridades competentes, como a polícia ou órgãos especializados em crimes
+                        cibernéticos. Utilizar ferramentas de denúncia disponíveis em plataformas digitais 
+                        e buscar orientação jurídica também são passos importantes para garantir que esses crimes sejam
+                        investigados e os responsáveis, punidos.</h2> 
+                </div>
+            </div>
+            <footer>
+                Trabalho Extensão 01/2024 - Ciência da Computação<br>
+                Fundação Presidente Antonio Carlos
+            </footer> 
+        </div>   
+    </body>
+     
 </html>
